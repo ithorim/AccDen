@@ -32,6 +32,7 @@ Project uses Angular and ASPT.NET
 ## Publishing the project
 - Change the enviroment variables
 - Run `ng build --configuration production` to build the angular files
+- Enable the use of static files in Program.cs
 - Move files from wwwroot/browser to wwwroot in backend folder
 - Run `dotnet publish --output Your\Desired\Location`
 - Copy files to the server (e.g. using scp via ssh)
