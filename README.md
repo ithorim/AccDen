@@ -1,5 +1,5 @@
 # AccDen 
-_**AccDen**_
+
 The _**AccDen**_ project consists of 2 applications that together form a software solution designed to facilitate the planning and delegation of tasks across various projects.
 Project uses Angular and ASPT.NET
 
