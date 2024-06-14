@@ -28,3 +28,11 @@ Project uses Angular and ASPT.NET
 ## Ports
 - 5001 - Backend
 - 4200 - Frontend
+
+## Publishing the project
+- Change the enviroment variables
+- Run `ng build --configuration production` to build the angular files
+- Move files from wwwroot/browser to wwwroot in backend folder
+- Run `dotnet publish --output Your\Desired\Location`
+- Copy files to the server (e.g. using scp via ssh)
+- Run the app on the server using `nohup dotnet backend.dll --urls "http://your.desired.url" &`
