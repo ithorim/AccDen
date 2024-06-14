@@ -1,38 +1,30 @@
-# NoName  
+# AccDen 
+_**AccDen**_
+The _**AccDen**_ project consists of 2 applications that together form a software solution designed to facilitate the planning and delegation of tasks across various projects.
+Project uses Angular and ASPT.NET
 
-Projekat _**NoName  **_ se sastoji iz 2 aplikacije koje zajedno čine softversko rešenje čija je namena olakša planiranje i delegiranje taskova na razlicitim projektima.
+## Required installations for running the applications in a development environment
 
-Rešenje se sastoji iz 2 dela, odnosno 2 odvojene aplikacije, _**Angular** front end_, _**.NET** back end_ .
-
-
-## Potrebno imati instalirano za pokretanje aplikacija u okruženju za razvoj
-
-### Angular app
-
+### Angular
 - Node.js `20.X.X`
 - Angular CLI `17.X.X`
 
-### .NET app
-
+### ASP.NET
 - .NET 8.0
 - Visual Studio Code
 
-### Baza podataka
+### Db
+- SQlite (can easily adjust to use any other db)
 
-- SQlite
+## Setting up the project to run in a development environment
 
+- Clone or download the repository
 
-## Postavljanje projekta za pokretanje u okruženju za razvoj
+### Running the applications
 
-- Preuzeti u zip formatu **.zip** ili klonirati **git** projekat na sledecem linku: https://gitlab.pmf.kg.ac.rs/si2024/access-denied
+- **Angular**, In the /src/frontend/ directory, run the application using AngularCLI by typing `ng serve` in the terminal.
+- **.NET**, In the /src/backend/ directory, run the application using DotNetCLI by typing `dotnet watch --no-hot-reload in the terminal`.
 
-### Pokretanje aplikacija
-
-- **Angular**, u direktorijumu `/src/frontend/` pokrenuti pomocu _AngularCLI_ aplikacije, u terminalu otkucati `ng serve`
-- **.NET**, u direktorijumu `/src/backend/` pokrenuti pomocu _DotNetCLI_ aplikacije, u terminalu otkucati `dotnet watch --no-hot-reload`
-
-
-
-## Portovi
+## Ports
 - 5001 - Backend
 - 4200 - Frontend
